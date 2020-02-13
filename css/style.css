@@ -293,29 +293,21 @@ header{
 
 @media print {
 
-  body{
-    background-image: none;
 
-  }
+body{
+  background-image: none;
 
-  .pricing{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+}
+.pricing{
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 
-  }
+}
 
-
-  .gallery, #gallery {
-    display: none;
-  }
-  }
+.gallery, #gallery {
+  display: none;
+}
+}
